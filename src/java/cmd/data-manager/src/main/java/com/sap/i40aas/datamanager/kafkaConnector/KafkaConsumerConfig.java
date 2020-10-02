@@ -19,7 +19,7 @@ import java.util.Map;
 
 @EnableKafka
 @Configuration
-@Profile("test")
+@Profile("dev")
 
 public class KafkaConsumerConfig {
 
